@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  color: #333;
+}
+
+header {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.nav {
+  display: flex;
+  font-size: 22px;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.home-page {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonials-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.profile-1,
+.profile-2,
+.profile-3 {
+  display: grid;
+  justify-items: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: #4a3e30;
+  color: white;
+}
