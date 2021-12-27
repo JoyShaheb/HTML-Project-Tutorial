@@ -2,64 +2,61 @@
 <html lang="en">
 
 <head>
-  <link rel="icon" sizes="32x32" href="images/icon-brown.svg">
+  <link rel="icon" sizes="32x32" href="images/icon-white.svg">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coffee Shop</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
-
   <style>
     input,
     textarea {
-      padding: 8px;
       width: 70%;
-      border-radius: 6px;
+      padding: 8px;
+      border-radius: 8px;
     }
 
     button {
-      padding: 8px;
       font-size: 20px;
+      padding: 8px;
     }
   </style>
 </head>
 
 <body>
-  <header class="header">
-    <img class="logo" src="images/logo.svg" alt="">
-    <nav class="nav">
+  <header>
+    <img src="images/logo.svg" alt="">
+    <nav>
       <a href="index.html">Home</a>
       <a href="shop.html">Shop</a>
-      <a href="contact.html">Contact</a>
+      <a href="contact.html">Contacts</a>
     </nav>
   </header>
-
   <section class="home-page">
     <div class="left">
-      <h1 style="font-size: 55px; margin-bottom: 30px;">Let’s get in Touch !</h1>
+      <h1 style="font-size: 55px;">
+        Let’s Get In Touch !
+      </h1>
 
       <form action="">
-        <label for="name">Name : </label>
-        <input type="text" name="name">
-
-        <br>
-        <br>
-
-        <label for="email">Email : </label>
-        <input type="email" name="email">
+        <label for="name">Name :</label>
+        <input type="text" name="name" placeholder="Write your name here">
 
         <br><br>
 
-        <label for="message">Message : </label>
-        <br><br>
-        <textarea name="message" id="" cols="30" rows="10">
-
-        </textarea>
+        <label for="email">Email :</label>
+        <input name="email" type="email" placeholder="Write your Email here">
 
         <br><br>
 
+        <label for="message">Message :</label>
+        <br><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+        <br><br>
         <button>Submit</button>
+
       </form>
     </div>
     <div class="right">
@@ -67,26 +64,22 @@
     </div>
   </section>
 
-
-  <footer class="footer">
+  <footer>
     <h1>Address</h1>
-    <address>
-      <p style="font-size: 30px;">
-        Shop #10, ABC Market, Dhaka- 1230
-      </p>
+    <address style="font-size: 30px;">
+      Shop #10, ABC Market, Dhaka- 1230
     </address>
 
     <div style="font-size: 35px;">
-      <a style="color: white;" href="https://www.google.com/" target="_blank">
+      <a style="color: white;" href="" target="_blank">
         <i class="fab fa-facebook"></i>
       </a>
-      <a style="color: white; margin-left: 10px; margin-right: 10px;" href="">
+      <a style="color: white;" href="" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a style="color: white;" href="" target="_blank">
         <i class="fab fa-instagram"></i>
       </a>
-      <a style="color: white;" href="">
-        <i class="fab fa-twitter"></i></i>
-      </a>
-
     </div>
   </footer>
 </body>

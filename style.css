@@ -2,8 +2,6 @@
 
 * {
   margin: 0;
-  /* padding: 0; */
-  /* box-sizing: border-box; */
 }
 
 body {
@@ -16,6 +14,22 @@ header {
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav {
+  display: flex;
+  margin-top: 20px;
+  gap: 40px;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
 }
 
 section {
@@ -23,52 +37,23 @@ section {
   margin-right: 50px;
 }
 
-footer {
-  margin-top: 50px;
-  padding: 50px;
-}
-
-.nav {
-  display: flex;
-  font-size: 22px;
-  gap: 30px;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-  margin-top: 20px;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
 .home-page {
-  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 50px;
   gap: 100px;
 }
 
-.name {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.testimonials-title {
+.testimonial-title {
+  text-align: center;
+  font-size: 35px;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 35px;
-  text-align: center;
 }
 
 .profile {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 50px;
 }
 
@@ -79,8 +64,15 @@ a {
   justify-items: center;
 }
 
-.footer {
+footer {
   text-align: center;
   background-color: #4a3e30;
   color: white;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
 }

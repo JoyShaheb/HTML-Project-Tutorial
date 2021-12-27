@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-  <link rel="icon" sizes="32x32" href="images/icon-brown.svg" />
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" sizes="32x32" href="images/icon-white.svg">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coffee Shop</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
   <style>
     table {
       width: 600px;
@@ -18,6 +18,8 @@
     caption {
       margin-top: 30px;
       margin-bottom: 30px;
+      font-size: 50px;
+      font-weight: bold;
     }
 
     tr:nth-child(even) {
@@ -25,54 +27,52 @@
     }
 
     td {
-      border: 1px solid #333;
       padding: 16px;
+      border: 1px solid #333;
     }
   </style>
 </head>
 
 <body>
-  <header class="header">
-    <img class="logo" src="images/logo.svg" alt="" />
-    <nav class="nav">
+  <header>
+    <img src="images/logo.svg" alt="">
+    <nav>
       <a href="index.html">Home</a>
       <a href="shop.html">Shop</a>
-      <a href="contact.html">Contact</a>
+      <a href="contact.html">Contacts</a>
     </nav>
   </header>
-
   <section class="home-page">
     <div class="left">
-      <h1 style="font-size: 55px">Popular Items</h1>
-      <div style="font-size: 20px;">
-        <ul>
-          <li>
-            coffee
-            <ul>
-              <li>Ice coffee</li>
-              <li>Americano</li>
-              <li>Cappucino</li>
-            </ul>
-          </li>
-          <li>Cheese cake</li>
-          <li>cookies</li>
-        </ul>
-      </div>
+      <h1 style="font-size: 55px;">Popular Items
+      </h1>
+      <ul style="font-size: 20px">
+        <li>Coffee
+
+          <ul>
+            <li>Ice Coffee</li>
+            <li>Americano</li>
+            <li>Cappucino</li>
+          </ul>
+        </li>
+
+        <li>Cheese Cake</li>
+        <li>Cookies</li>
+      </ul>
     </div>
     <div class="right">
-      <img style="height: 450px" src="images/shop/Shop.svg" alt="" />
+      <img style="height: 450px;" src="images/shop/Shop.svg" alt="">
     </div>
   </section>
 
-  <section style="display: flex; justify-content: center;" class="">
+  <section class="table">
     <table>
-      <caption>
-        <h1 style="font-size: 50px;">Menu</h1>
-      </caption>
+      <caption>Menu</caption>
+
       <thead>
         <tr>
-          <th>Item</th>
-          <th>Price</th>
+          <th>Items</th>
+          <th>price</th>
         </tr>
       </thead>
       <tbody>
@@ -107,30 +107,24 @@
       </tbody>
       <tfoot></tfoot>
     </table>
-
   </section>
 
-
-
-  <footer class="footer">
+  <footer>
     <h1>Address</h1>
-    <address>
-      <p style="font-size: 30px;">
-        Shop #10, ABC Market, Dhaka- 1230
-      </p>
+    <address style="font-size: 30px;">
+      Shop #10, ABC Market, Dhaka- 1230
     </address>
 
     <div style="font-size: 35px;">
-      <a style="color: white;" href="https://www.google.com/" target="_blank">
+      <a style="color: white;" href="" target="_blank">
         <i class="fab fa-facebook"></i>
       </a>
-      <a style="color: white; margin-left: 10px; margin-right: 10px;" href="">
+      <a style="color: white;" href="" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a style="color: white;" href="" target="_blank">
         <i class="fab fa-instagram"></i>
       </a>
-      <a style="color: white;" href="">
-        <i class="fab fa-twitter"></i></i>
-      </a>
-
     </div>
   </footer>
 </body>
